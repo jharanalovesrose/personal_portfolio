@@ -3,13 +3,34 @@ body {
     color: #ffffff;
 }
 
+.container { 
+    margin: auto;
+    padding: 0px 24px 0px 24px;
+} 
+
 /* header starts here */
-.navbar-items {
-    list-style: none;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.header__logo >h1 {
+    font-size: 42px;
+}
+
+.navbar-items {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-item {
+    margin: 0px 0px 0px 32px;
+    font-size: 28px;
+}
 .navbar-item >a {
     text-decoration: none;
     color: #ffffff;
 }
+
 /* header ends here */
